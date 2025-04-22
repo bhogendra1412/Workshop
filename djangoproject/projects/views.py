@@ -58,4 +58,4 @@ class RegisterView(APIView):
         return Response(serializer.errors, status=400)
 
 def index(request):
-    return render(request, 'projects_index.html')
+    return render(request, 'index.html')
